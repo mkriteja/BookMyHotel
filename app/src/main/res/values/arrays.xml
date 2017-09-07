@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_labels">
+        <item>@string/sort_label_low_to_high</item>
+        <item>@string/sort_label_high_to_low</item>
+    </array>
+
+    <array name="sort_values">
+        <item>@string/sort_value_low_to_high</item>
+        <item>@string/sort_value_low_to_high</item>
+    </array>
+
+    <array name="ratings_labels">
+        <item>@string/rating_label_one</item>
+        <item>@string/rating_label_two</item>
+        <item>@string/rating_label_three</item>
+        <item>@string/rating_label_four</item>
+        <item>@string/rating_label_five</item>
+    </array>
+
+    <array name="ratings_values">
+        <item>@string/rating_value_one</item>
+        <item>@string/rating_value_two</item>
+        <item>@string/rating_value_three</item>
+        <item>@string/rating_value_four</item>
+        <item>@string/rating_value_five</item>
+    </array>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/search_key"
+        android:title="@string/search_label" />
+
+    <ListPreference
+        android:defaultValue="@string/sort_label_low_to_high"
+        android:entries="@array/sort_labels"
+        android:entryValues="@array/sort_values"
+        android:key="@string/sort_key"
+        android:title="@string/sort_label" />
+
+    <MultiSelectListPreference
+        android:defaultValue="@string/rating_label_five"
+        android:entries="@array/ratings_labels"
+        android:entryValues="@array/ratings_values"
+        android:key="@string/ratings_key"
+        android:title="@string/ratings_label" />
+
+</PreferenceScreen>
